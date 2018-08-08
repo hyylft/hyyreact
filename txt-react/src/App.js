@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './component/header/Header';
-import ItemList from './component/itemlist/ItemList';
-import Footer from './component/footer/Footer';
+// import Header from './component/header/Header';
+// import ItemList from './component/itemlist/ItemList';
+// import Footer from './component/footer/Footer';
 import ProvinceSelect from './unit/province/ProvinceSelect';
-import './App.css';
+// import './App.css';
 
 class App extends React.Component {
 
