@@ -1,0 +1,81 @@
+.searchBox {
+	min-width: 1100px;
+	position: relative;
+	padding: 18px 0 4px;
+	border: 1px solid #e7e7e7;
+	background: #f7f7f7;
+}
+.searchUl {
+	overflow: hidden;
+}
+.searchBox .searchUlNone {
+	height: auto !important;
+	overflow: inherit !important;
+}
+.searchBoxBt {
+	margin-bottom: 20px;
+}
+.searchTit {
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	text-indent: 2em;
+	margin-top: -18px;
+	background: #f0f0f0;
+	margin-bottom: 14px;
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 14px;
+	color: #333;
+	font-weight: 700;
+}
+.searchUl li {
+	float: left;
+	width: 200px;
+	display: inline-block;
+	margin: 0 0 14px 16px;
+	font-size: 0;
+	*word-spacing: -1px;
+}
+.searchUl .pinfoTable {
+	width: 47px;
+}
+.searchUl li label {
+	float: left;
+	font-size: 14px;
+	display: inline-block;
+	width: 98px;
+	text-align: right;
+	color: #333;
+	line-height: 24px;
+	font-weight: normal;
+}
+.searchUl li input {
+	display: inline-block;
+	width: 98px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.searchUl li span {
+	font-size: 14px;
+}
+.searchUl li select {
+	display: inline-block;
+	width: 100px;
+	height: 24px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.searchBox > a {
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+	display: block;
+	width: 118px;
+	cursor: pointer;
+	text-align: center;
+	color: #428bca;
+}

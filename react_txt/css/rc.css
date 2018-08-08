@@ -1,0 +1,15 @@
+.btn {
+	display: block;
+	text-decoration: none;
+	color: red;
+}
+#app {
+	color: green;
+}
+#example {
+	color: yellow;
+}
+#website {
+	font-size: 18px;
+	color: #ff4a00;
+}

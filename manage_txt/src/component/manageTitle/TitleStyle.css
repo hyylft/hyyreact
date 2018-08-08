@@ -1,0 +1,10 @@
+.titUrl {
+	padding: 16px 0 !important;
+}
+.titUrl span {
+	font-size: 14px;
+	color: #333;
+}
+.titUrl .currentPage {
+	color: #428bca;
+}

@@ -1,0 +1,43 @@
+/* CSS Reset Document */
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6,img {
+	margin: 0;
+	padding: 0;
+}
+ol, ul {
+	list-style: none;
+}
+input {
+	border: none;
+}
+.cf:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+.cf {
+	zoom: 1;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+
+
+.headerBox,.footerBox {
+	color: #fff;
+	background: url(toolbg.jpg);
+	background-size: 100% 100%; 
+	position: absolute;
+	left: 0;
+	right: 0;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+.headerBox {
+	top: 0;
+}
+.footerBox {
+	bottom: 0;
+}
