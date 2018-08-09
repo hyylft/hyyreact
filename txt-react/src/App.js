@@ -32,6 +32,9 @@ class App extends React.Component {
           */
         }
         <ProvinceSelect propsStyle={this.props.inpStyle}></ProvinceSelect>
+        
+        <span>哈哈哈哈</span>
+        <div>哈哈哈哈</div>
       </div>
     );
   }
