@@ -31,10 +31,7 @@ class App extends React.Component {
           <Footer title={this.props.foot}></Footer>
           */
         }
-        <ProvinceSelect propsStyle={this.props.inpStyle}></ProvinceSelect>
-        
-        <span>哈哈哈哈</span>
-        <div>哈哈哈哈</div>
+          <ProvinceSelect propsStyle={this.props.inpStyle}></ProvinceSelect>
       </div>
     );
   }
