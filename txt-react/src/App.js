@@ -6,32 +6,17 @@ import ProvinceSelect from './unit/province/ProvinceSelect';
 // import './App.css';
 
 class App extends React.Component {
-
   static defaultProps = {
     head: 'HEADER',
-    foot: 'FOOTER',
-    inpStyle: {
-      display: "inline-block",
-      width: "160px",
-      height: "30px",
-      border: "1px solid #ccc",
-      padding: "0",
-      margin: "0",
-      fontSize: '14px'
-    }
+    foot: 'FOOTER'
   }
 
   render() {
     return (
       <div className="App">
-        {
-          /*
           <Header title={this.props.head}></Header>
           <ItemList></ItemList>
           <Footer title={this.props.foot}></Footer>
-          */
-        }
-          <ProvinceSelect propsStyle={this.props.inpStyle}></ProvinceSelect>
       </div>
     );
   }
