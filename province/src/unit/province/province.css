@@ -20,7 +20,6 @@ ul {
   position: relative;
   z-index: 999;
   display: inline-block;
-  margin-left: 10px; 
 }
 .closeBtn {
   position: absolute;
