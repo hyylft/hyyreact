@@ -210,7 +210,7 @@ class ProvinceSelect extends React.Component {
                 {
                   mapName===undefined?'':
                   mapName.map((item, index) => (
-                    <li key={`keyName${index}`} className={checkIndex===index?'active':''} onClick={()=>handleName(index, item)}>{item}</li>
+                    <li key={keyName+index} className={checkIndex===index?'active':''} onClick={()=>handleName(index, item)}>{item}</li>
                   ))
                 }
             </ul>
