@@ -21,6 +21,16 @@ ul {
   z-index: 999;
   display: inline-block;
 }
+.boxDiv>span {
+  display: inline-block;
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  padding: 0 0 0 4px;
+  margin: 0;
+  font-size: 14px;
+}
 .closeBtn {
   position: absolute;
   right: 0px;

@@ -167,7 +167,6 @@ class ProvinceSelect extends React.Component {
   }
 
   render() {
-    console.log(this.props.propsStyle.height)
     const {
       provinceValue, provinceIndex, cityValue, cityIndex, countyValue, countyIndex, tabsIndex, stateStyle, curState
     } = this.state;
